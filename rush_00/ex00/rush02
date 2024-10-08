@@ -1,0 +1,50 @@
+#include <unistd.h>
+
+void	ft_putchar(char c);
+
+void	print_char(int c, char inicio, char meio, char fim)
+{
+	int	cont_col;
+
+	cont_col = 1;
+	while (cont_col <= c)
+	{
+		if (cont_col == 1)
+		{
+			ft_putchar(inicio);
+		}
+		else if (cont_col == c)
+		{
+			ft_putchar(fim);
+		}
+		else
+		{
+			ft_putchar(meio);
+		}
+		cont_col++;
+	}
+	ft_putchar('\n');
+}
+
+void	rush(int x, int y)
+{
+	int	cont_linhas;
+
+	cont_linhas = 1;
+	while (cont_linhas <= y)
+	{
+		if (cont_linhas == 1)
+		{
+			print_char(x, 'A', 'B', 'A');
+		}
+		else if (cont_linhas == y)
+		{
+			print_char(x, 'C', 'B', 'C');
+		}
+		else
+		{
+			print_char(x, 'B', ' ', 'B');
+		}
+		cont_linhas++;
+	}
+}
