@@ -40,3 +40,5 @@
 * n      Goes to the next search occurrence.
 * N      Goes to the previous search occurrence.
 * :%s/old/new/g    Replaces all occurrences of "old" with "new" in the file.
+
+Credits: [FreecodeCamp](https://www.freecodecamp.org/portuguese/news/guia-de-configuracao-do-vimrc-como-personalizar-o-editor-de-codigo-vim/)
