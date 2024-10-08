@@ -48,5 +48,24 @@ Font: [Wikipedia](https://en.wikipedia.org/wiki/Chmod).
 
 * **tar -cvf <archive-name>.tar <directory>** <br>Archives and compresses files.
   - **tar -xvf <archive-name>.tar** <br>Extracts an archive.
- 
+
+<h3> # General</h3>
+
 * **clear** <br>Clears the terminal screen.
+
+* **pwd** <br>Print working directory.
+
+* **find . -name "*.txt"** <br>Find all .txt files in the current directory and its subdirectories.
+
+* **echo "This text will be written to the file" > output.txt** <br>Is used to display a line of text or a variable value in the terminal.
+
+* **man <command>** <br>Used to display the manual pages for other commands, providing detailed information about their usage, options, and syntax.
+  - **man find**
+  - **q**  Quit the manual.
+  - **Up/Down Arrow** Scroll through the content.
+  - **/search_term** Search within the manual.
+
+* **alias \<shortcut\>='\<command\>'** <br>Create shortcuts or custom command.
+  - **alias cc42='cc -Wall -Wextra -Werror'** :gem:
+  - **alias** <br>View all currently defined aliases.
+  - **OBS.:** To make an alias permanent, you need to add it to your shell configuration file (like ~/.bashrc or ~/.zshrc), and then run source ~/.bashrc (or source ~/.zshrc) to apply the changes immediately.
