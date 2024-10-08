@@ -1,6 +1,9 @@
-## During my piscine period, I chose to use the Vim text editor, although there are more intuitive options available, such as Visual Studio Code. Here are some of the configurations I added to Vim to optimize my work and the editor's appearance.</h2>
+<h3> During my piscine period, I chose to use the Vim text editor, although there are more intuitive options available, such as Visual Studio Code. Here are some of the configurations I added to Vim to optimize my work and the editor's appearance.</h3>
 
-## Below, I also list some shortcuts that I frequently use.</h4>
+> Note: you should download and rename the file to "*.vimrc*"
+
+
+<h3> Below, I also list some shortcuts that I frequently use.</h3>
 
 * w    Moves the cursor to the start of the next word.
 * b    Moves the cursor to the start of the previous word.
