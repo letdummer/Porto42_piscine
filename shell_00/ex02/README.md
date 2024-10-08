@@ -1,3 +1,5 @@
+# ls -l
+
 * **touch test1 test3 test4**
 
 * **ln test3 test5** <br>These are of the *[hard link](https://www.cyberciti.biz/faq/creating-hard-links-with-ln-command/)* type.
