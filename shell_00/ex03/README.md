@@ -7,5 +7,4 @@
 * **touch id_rsa_pub**
 
 * **vim id_rsa_pub**
-
-* Paste the **ssh-keygen**
+  - Paste the **ssh-keygen**
