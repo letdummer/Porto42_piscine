@@ -19,3 +19,7 @@ To simplify using these flags, you can create an alias in your shell configurati
 >`alias cc42='gcc -Wall -Wextra -Werror'`
 
 <br>After compiling, run the program with `./a.out` ou `./name_of_file`.
+
+**keywords:**
+
+`loops` `functions` `man ASCII` `integers` `characters` `argument`
