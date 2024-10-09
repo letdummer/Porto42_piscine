@@ -50,3 +50,4 @@ void ft_swap(int *a, int *b)
 `a = 20 | b = 10`
 
 [Reference](https://www.programiz.com/c-programming/examples/swapping)
+[Video](https://www.youtube.com/watch?v=CV74aNbKrpo)
