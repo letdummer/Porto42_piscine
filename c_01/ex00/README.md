@@ -17,9 +17,9 @@ int main(void)
     int n;
     int *nbr;
 
-    nbr = &n;         // nbr points to the *address* of **n**
-    ft_ft(nbr);      // Call `ft_ft` with the address of **n**
-    printf("%d", n); // Print the *value* of **n**
+    nbr = &n;         // nbr points to the address of n
+    ft_ft(nbr);      // Call ft_ft with the address of n
+    printf("%d", n); // Print the value of n
 }
 ```
 - The `main` function is the entry point of the program.
