@@ -21,21 +21,25 @@ void	ft_print_comb(void)
 	a = '0';
 
 	while (a <= '7')
-	{
-		b = a + 1;
-
-		while (b <= '8')
-		{
-			c = b + 1;
-
-			while (c <= '9')
-			{	
-				ft_putchar(a + 1);
-				ft_putchar(b + 1);
-				ft_putchar(c + 2);
-				ft_putchar(',');
-				ft_putchar(' ');
-			}
-		}
-	}
+    {
+        b = a + 1;
+        while (b <= '8')
+        {
+            c = b + 1;
+            while (c <= '9')
+            {    
+                ft_putchar(a);
+                ft_putchar(b);
+                ft_putchar(c);
+                if (a != '7' || b != '8' || c != '9')  // Avoid trailing comma and space
+                {
+                    ft_putchar(',');
+                    ft_putchar(' ');
+                }
+                c++;
+            }
+            b++;
+        }
+        a++;
+    }
 }
