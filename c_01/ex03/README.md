@@ -33,8 +33,8 @@ int main(void)
 - The `ft_div_mod` function is called with the values of `a` and `b`, along with the addresses of `div` and `mod` using the address-of operator (`&`). This allows `ft_div_mod` to modify the values of `div` and `mod` directly.
 
 ```
-    printf("Divisao de a por b: %d\n", div); // Print the result of the division
-    printf("Modulo de a por b: %d\n", mod);  // Print the result of the modulus
+    printf("Division of a by b: %d\n", div); // Print the result of the division
+    printf("Modulus of a by b: %d\n", mod);  // Print the result of the modulus
 }
 ```
 - After the function call, the results are printed using `printf`. The values of `div` and `mod` are displayed.
@@ -55,6 +55,6 @@ void ft_div_mod(int a, int b, int *div, int *mod)
 *Output*
 
 ```
-Divisao de a por b: 62
-Modulo de a por b: 182
+Division of a by b: 62
+Modulus of a by b: 182
 ```
