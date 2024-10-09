@@ -9,7 +9,7 @@ int	main(void)
 */
 void	ft_putchar(char x)
 {
-	write(1, &x, 1)
+	write(1, &x, 1);
 }
 
 void	ft_print_comb(void)
